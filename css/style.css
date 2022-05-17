@@ -16,8 +16,11 @@ i{
     border-radius: 20px;
     margin: 30px;
     font-size: 40px;
+    text-align: center;
 }
 .small{
     font-size: 15px;
 }
-
+p{
+    color: black;
+}

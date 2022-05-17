@@ -118,7 +118,7 @@ const icon = document.querySelector(".icons");
 for (let i = 0; i < icons.length; i++) {
 	const iconsList = 
 	`
-		<i class="${icons[i].prefix}solid ${icons[i].prefix}${icons[i].name}"</i>
+		<i class="${icons[i].prefix}solid ${icons[i].prefix}${icons[i].name}" style="color: ${icons[i].color};"</i>
 		<p class="small">${icons[i].name}</p>
 
 	`;
