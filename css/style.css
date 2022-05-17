@@ -5,21 +5,19 @@ h1{
     height: 80px;
     background-color: aqua;
 }
-.box{
-    width: calc(100%/6);
-    margin: 40px 0;
-    height: 80px;
-    border: solid black 1px;
-    background-color: white;
-    border-radius: 20px;
-    text-align: center;
-    display: inline-block;
-}
+
 .icons{
     background-color: lightgrey;
 }
-.box i, .box p{
-    line-height: 40px;
-    font-size: 20px;
-    margin: 0;
+
+i{
+    padding: 50px 120px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px;
+    font-size: 40px;
 }
+.small{
+    font-size: 15px;
+}
+

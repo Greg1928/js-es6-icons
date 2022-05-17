@@ -116,11 +116,11 @@ const icons = [
 const icon = document.querySelector(".icons");
 
 for (let i = 0; i < icons.length; i++) {
-	const iconsList = `
-	<div class="box">
+	const iconsList = 
+	`
 		<i class="${icons[i].prefix}solid ${icons[i].prefix}${icons[i].name}"</i>
-		<p>${icons[i].name}</p>
-	</div>
+		<p class="small">${icons[i].name}</p>
+
 	`;
 	icon.innerHTML += iconsList;
 }
