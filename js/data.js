@@ -1,4 +1,4 @@
-[
+const icons = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -112,3 +112,15 @@
 		color: 'blue'
 	}
 ];
+
+const icon = document.querySelector(".icons");
+
+for (let i = 0; i < icons.length; i++) {
+	const iconsList = `
+	<div class="box">
+		<i class="${icons[i].prefix}solid ${icons[i].prefix}${icons[i].name}"</i>
+		<p>${icons[i].name}</p>
+	</div>
+	`;
+	icon.innerHTML += iconsList;
+}
