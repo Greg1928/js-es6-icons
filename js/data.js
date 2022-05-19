@@ -121,6 +121,7 @@ let user = [];
 
 let select = document.querySelector("#form");
 select.addEventListener('change', function(){
+	icon.innerHTML= "";
 	if ( form.value === "1"){
 		for (let i = 0; i < icons.length; i++) {
 			const iconsList = 
@@ -132,6 +133,7 @@ select.addEventListener('change', function(){
 			icon.innerHTML += iconsList;
 		}
 	}else if ( form.value === "2"){
+		icon.innerHTML= "";
 		animal = icons.filter(icons => icons.type === "animal");
 		for (let i = 0; i < animal.length; i++) {
 			const iconsList = 
@@ -143,6 +145,7 @@ select.addEventListener('change', function(){
 			icon.innerHTML += iconsList;
 		}
 	}else if ( form.value === "3"){
+		icon.innerHTML= "";
 		vegetable = icons.filter(icons => icons.type === "vegetable");
 		for (let i = 0; i < vegetable.length; i++) {
 			const iconsList = 
@@ -154,6 +157,7 @@ select.addEventListener('change', function(){
 			icon.innerHTML += iconsList;
 		}
 	}else if ( form.value === "4"){
+		icon.innerHTML= "";
 		user = icons.filter(icons => icons.type === "user");
 		for (let i = 0; i < user.length; i++) {
 			const iconsList = 
